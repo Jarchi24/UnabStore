@@ -73,7 +73,7 @@ fun LoginScreen(
     Scaffold(
         modifier = Modifier
             .fillMaxSize()
-            .padding(WindowInsets.systemBars.asPaddingValues()) // 👈 evita que el contenido se meta debajo del notch
+            .padding(WindowInsets.systemBars.asPaddingValues())
     ) { paddingValues ->
         Column(
             modifier = Modifier
